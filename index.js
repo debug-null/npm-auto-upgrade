@@ -5,7 +5,9 @@ const os = require("os");
 
 class npmAutoUpgrade {
   constructor(options) {
-    let packPath = path.resolve(__dirname, "package.json");
+    if(!options) options = {};
+    let packPath = path.resolve(__dirname, "./../../package.json");
+
     Object.assign(
         this,
       {

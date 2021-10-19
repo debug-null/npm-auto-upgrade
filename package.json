@@ -1,9 +1,12 @@
 {
   "name": "npm-auto-upgrade",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Automatically update NPM package version",
   "main": "index.js",
-  "keywords": ["npm update", "auto update"],
+  "keywords": [
+    "npm update",
+    "auto update"
+  ],
   "author": "",
   "license": "ISC"
 }
